@@ -1,0 +1,26 @@
+[
+  {
+    "Class": {
+      "name": "Test1",
+      "vars": [
+        { "doube": { "name": "bar" } },
+        { "unsigned int": { "name": "bla" } },
+        { "Class": {"name": "c2", "vars": [{"float": {"name": "flags"}}]}}
+      ]
+    }
+  },
+  {
+    "Class": {
+      "name": "Test2",
+      "vars": [
+        { "char": { "name": "lo" } }
+      ]
+    }
+  },
+  {
+    "Enum": {
+      "name": "Color",
+      "vars": [ {"blue": "0"}, {"green": "1"}, {"yellow": "2"} ]
+    }
+  }
+]
